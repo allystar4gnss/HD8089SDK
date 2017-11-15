@@ -2,15 +2,27 @@ HD8089 SDK
 =====
 
 ## Binary files
-* DR use CAN
-  * firmware with boot code
+* configuration DR over CAN
+  * firmware + boot code
 ```
 FWConfig.exe -f sta8090_gnssapp_dr_soc_sqi_sqi_fr_gae_BOOT.bin -c sta8090_NMEA0DEBUG2_DR.txt -o hd8089_BOOT_DR.bin
 
 ```
-  * firmware only
+  * firmware
 ```
 FWConfig.exe -f sta8090_gnssapp_dr_soc_sqi_sqi_fr_gae_UPG.bin -c sta8090_NMEA0DEBUG2_DR.txt -o hd8089_UPG_DR.bin
+
+```
+
+* configuration DR over ODO
+  * firmware + boot code
+```
+FWConfig.exe -f sta8090_gnssapp_dr_soc_sqi_sqi_fr_gae_BOOT.bin -c sta8090_NMEA0DEBUG2_ODO_DR.txt -o hd8089_BOOT_ODO_DR.bin
+
+```
+  * firmware
+```
+FWConfig.exe -f sta8090_gnssapp_dr_soc_sqi_sqi_fr_gae_UPG.bin -c sta8090_NMEA0DEBUG2_ODO_DR.txt -o hd8089_UPG_ODO_DR.bin
 
 ```
 
@@ -19,6 +31,3 @@ FWConfig.exe -f sta8090_gnssapp_dr_soc_sqi_sqi_fr_gae_UPG.bin -c sta8090_NMEA0DE
   * HD8090 SDK for supporting Gyro/Acc BOSCH SMI130 
 * HD8089_gnssapp_SM130_1110.zip
   * HD8090 SDK for supporting CAN/DWP
-
-
-
