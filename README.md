@@ -31,3 +31,6 @@ Use project gnssapp_demo_freertos_gae changed makefile for being CAN TX or CAN R
 * HD8089_gnssapp_SM130.zip
   * HD8089 SDK for supporting Gyro/Acc BOSCH SMI130
 
+## FW config file
+* Ford Focus 2009
+  * HD8089_DR_CAN-FORD-FOCUS09.txt
